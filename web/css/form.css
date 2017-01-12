@@ -1,0 +1,75 @@
+@charset "utf-8";
+input, textarea { font-family: "ＭＳ Ｐゴシック", "MS P Gothic", "メイリオ", Meiryo, Arial, Osaka, sans-serif; }
+/* TEXTBOX TEXTAREA START */
+/* form選択時色変更 START */
+input.txtbox { padding: 2px 2px 0px 2px; border: 1px solid #7f9db9; width: 95%; height: 19px; line-height: 16px; background-color: #fff; }
+input.focus { padding: 2px 2px 0px 2px; border: 1px solid #7f9db9; width: 95%; height: 19px; line-height: 16px; background-color: #f0fffe; }
+textarea.txt_midbox { padding: 3px; border: 1px solid #7f9db9; width: 70%; height: 70px; line-height: 17px; background-color: #fff; }
+textarea.focus_midbox { padding: 3px; border: 1px solid #7f9db9; width: 70%; height: 70px; line-height: 17px; background-color: #f0fffe; }
+textarea.txt_bigbox { padding: 3px; border: 1px solid #7f9db9; width: 90%; height: 150px; line-height: 17px; background-color: #fff; }
+textarea.focus_bigbox { padding: 3px; border: 1px solid #7f9db9; width: 90%; height: 150px; line-height: 17px; background-color: #f0fffe; }
+input.txtbox.fError,textarea.txt_midbox.fError,textarea.txt_bigbox.fError{border-color:#f00;background-color:#fff0f0;}
+#reg_btns input, #date_search_in .reg_btn_box input { padding: 3px; }
+.w300{width:300px !important;}
+/* form選択時色変更 END */
+.fTextAssist { margin-right: 15px; *position:relative;/*IE*/
+ *top:-5px;/*IE*/
+}
+.fTextAssist_top { margin-bottom: 5px; }
+.fTextAssist_right { *position:relative;/*IE*/
+ *top:-5px;/*IE*/
+}
+.fTextAssist_bottom { margin-top: 5px; }
+.fTextAssist_left { display:inline-block;width:80px; }
+.fAssist_row { margin-right: 15px; display: inline; float: left; white-space: nowrap; }
+.fAssist_Search { margin-right: 15px; display: inline; float: left; position: relative; top: -2px; white-space: nowrap; }
+.fAssist_col { padding-top: 10px; clear: both; }
+.fAssist_col_line { padding: 5px 0px; clear: both; }
+/* TEXTBOX TEXTAREA END */
+/* CHECKBOX START */
+input[type=checkbox] {cursor:pointer;}
+.fCheck { margin: 0px auto; text-align: center; cursor: pointer; }
+.fCheckDATE { margin-right: 0px; }
+.sCheck { margin-right: 5px; position: absolute; left: 0; top: 1px; *top: -3px;
+}
+.checkbox {display: inline-block;float: left;line-height: 150%;}
+.checkbox label{padding-left:5px;}
+/* CHECKBOX END */
+/* RADIO BUTTON START */
+input[type=radio] { cursor: pointer; }
+.fRadio { position: absolute; top: 0; *top: -4px;
+left: 0; }
+.fRadioAssist {
+ *margin-right:-2px;/*IE*/ position: relative; top: -2px; }
+ input[type=radio]+label {margin-left: -15px;}
+/* RADIO BUTTON END */
+/* LABEL START */
+label { cursor: pointer; }
+.fLabel { margin-right: 15px; position: relative; *left:0px;/*IE*/
+top: 0; white-space: nowrap; _cursor: text;/*IE6*/ }
+/*fix for resident page*/
+.optionData .fLabel {margin-left: 5px;}
+.optionData div.checkbox {display: inline-block; float: left;}
+.optionData div.checkbox  label{padding: 0 15px 0 5px !important;}
+.fLabelCalender { margin-right: 0px; position: relative; *left:-3px;/*IE*/
+top: -1px; white-space: nowrap; }
+/* LABEL END */
+/* SELECT BOX START */
+.fSelectBig { width: 200px; }
+.fSelectSmall { }
+.fSelectAssist { position: relative; *top:-1px;/*IE*/
+}
+.fSelectSearch { width: 396px; }
+span.fSelectSearch select { width: 396px; }
+/* SELECT BOX END */
+/* FILE START */
+html>/**/body input[type=file] { height: 22px !important; line-height: 120% !important; }/*IE8*/
+html:not(:target) input[type=file] { height: auto !important; line-height: auto !important; }/*etc*/
+input[type=file] { *height:22px !important;
+ *line-height:120% !important;
+}
+.fFile { padding: 1px; width:80%; font-size: 13px; }
+/* FILE END */
+/*ERROR START*/
+.form-error{border:solid 1px #ff0000 !important;}
+/*ERROR END*/

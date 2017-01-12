@@ -1,0 +1,104 @@
+#paging li.current a{
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+.light-theme .current{
+    background: none;
+}
+.tableYoko th.icon-sort a::before, .tableYoko th a.desc::before{
+    content: "▼";
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+    position: relative;
+    top: 1px;
+}
+.tableYoko th.icon-sort a.asc::before, .tableYoko th a.asc::before{
+    content: "▲";
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+    position: relative;
+    top: 1px;
+}
+.tableYoko th.icon-sort a::after ,.tableYoko th.icon-sort a.asc::after{
+    content: "";
+}
+.section {
+    margin-top: 40px;
+}
+.warning {
+    color: #eb1616;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 300px !important;
+}
+.tableYoko tr:nth-child(2n-1){
+    background: #fff none repeat scroll 0 0;
+}
+.tableYoko tr:nth-child(2n) {
+    background: #f8f8f8 none repeat scroll 0 0;
+}
+.mBoxitem_table.boxAppDetail p.title{
+    margin-bottom: 20px;
+}
+.mBoxitem_table .tableDetail div.description_mail{
+    padding-bottom: 150px;
+}
+.btnGroupMail .btnGray{
+    display: inline-block;
+    border: 1px solid gray;
+}
+.btnGroupMail .btnWhite{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 50px;
+    display: inline-block;
+    color: #000;
+}
+.datebox{
+    float: left;
+}
+.error-custom div.error-summary{
+    background: none;
+    border-left: none;
+    color: #eb0000;
+}
+.mBoxitem_listinfo div.searchNoData{
+    padding: 15px;
+    margin: 10px 25px 10px;
+    background-color: #f8f8f8;
+}
+.mBoxitem_listinfo div.searchNoData p.txtWarning{
+    color: #ff0000;
+}
+input.txtbox.fieldRequired.error_input,select.txtbox.fieldRequired.error_input,select.packName.fieldRequired.error_input{
+    border-color: #f00;
+    background-color: #fff0f0;
+}
+#txt-error{
+    margin: 10px 25px 0px 25px;
+    color: #eb0000;
+}
+.txtbox.disabled{
+    background-color: #d4d4d4;
+}
+input.txtbox.with50{
+    width: 100px;
+}
+span.label-search{
+    float: left;
+    margin-right: 19px;
+}
+.grid-view .tableYoko th{
+    color: #004ec4;
+}
