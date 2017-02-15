@@ -37,7 +37,7 @@ class Money implements \JsonSerializable
     /**
      * @var integer()
      */
-    private static $roundingModes = (
+    private static $roundingModes = array(
         PHP_ROUND_HALF_UP,
         PHP_ROUND_HALF_DOWN,
         PHP_ROUND_HALF_EVEN,
